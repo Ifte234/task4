@@ -1,7 +1,7 @@
 
 import 'package:equatable/equatable.dart';
 import 'package:image_picker/image_picker.dart';
-// part of 'image_bloc.dart';
+
 
  class ImageState extends Equatable {
   final XFile? file;

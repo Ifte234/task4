@@ -5,8 +5,8 @@ import 'package:image_picker/image_picker.dart';
 import '../../../../data/utils/image_picker_utils.dart';
 import 'image_state.dart';
 
+
 part 'image_event.dart';
-// part 'image_state
 
 class ImageBloc extends Bloc<ImageEvent, ImageState> {
   // This is dependency injection we pass our util class to bloc as dependecy inject.
